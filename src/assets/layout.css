@@ -1,0 +1,68 @@
+.our_story_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.our_story_upblock {
+    margin-top: 100px;
+    display: flex;
+    height: 977px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our_story_text {
+    height: 217px;
+    width: 444px;
+}
+
+.our_story_pictures {
+    position: relative;
+}
+
+.our_story_pictures .pictures_1 {
+    position: absolute;
+    bottom: 22px;
+    left: -193px;
+    z-index: 4;
+}
+
+.our_story_pictures .pictures_2 {
+    position: absolute;
+    bottom: -56px;
+    left: 117px;
+    z-index: 3;
+}
+
+.our_story_pictures .pictures_3 {
+    position: absolute;
+    top: 21px;
+    left: 106px;
+}
+
+.our_story_pictures .pictures_4 {
+    z-index: 1;
+    position: relative;
+}
+
+.our_story_downblock {
+    background: url(img/delicious-1866631_19201.png);
+    height: 357px;
+    position: relative;
+}
+
+.our_story_downblock::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 357px;
+}
+
+.our_story_downblock .downblock_text {
+    position: absolute;
+}
+
